@@ -10,7 +10,11 @@
  * 
   */
 
-const multiplyByTwo
+const { arrow1 } = require("./04_arrow")
+
+const multiplyByTwo =(array)=>{(value)=>value
+  return array.map=array
+}
 
 
 /**
@@ -23,7 +27,7 @@ const multiplyByTwo
  *   - Vous ne pouvez pas utiliser de variable (autre que l'argument de la fonction)
   */
 
-const filterNameStartByA
+const filterNameStartByA= (array)=>array.filter ((value)=>value[0]==="A")
 /**
  * Utiliser la fonction .reduce sur le tableau passé en paramètre
  * retourne la somme des valeurs du tableau
@@ -33,8 +37,8 @@ const filterNameStartByA
  *   - les mots clées function et return sont interdits
  *   - Vous ne pouvez pas utiliser de variable (autre que l'argument de la fonction)
   */
-
-const sum
+const array =[1, 2, 3, 4, 5]
+const sum (array)=>array.reduce ((acc,value)=> acc+value , 0)
 /**
  * Utiliser la fonction .find sur le tableau passé en paramètre
  * retourne l'utilisateur qui a l'id passé en 2e paramètre
