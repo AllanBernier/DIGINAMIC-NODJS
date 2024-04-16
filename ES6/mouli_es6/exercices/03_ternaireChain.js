@@ -10,6 +10,10 @@
  */
 
 function ternaryChain(a, b) {
+<<<<<<< HEAD
+  return a > b ? ">" : a < b ? "<" : "=";
+    
+=======
   return a > b ? 
     '>' 
     : 
@@ -17,6 +21,7 @@ function ternaryChain(a, b) {
     '<' 
     : 
     '=';
+>>>>>>> a5a5389a8148df444cf987bb5d54e819dfa03b07
 }
 
 module.exports = ternaryChain;

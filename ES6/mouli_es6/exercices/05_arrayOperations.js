@@ -10,8 +10,16 @@
  * 
   */
 
+<<<<<<< HEAD
+const { arrow1 } = require("./04_arrow")
+
+const multiplyByTwo =(array)=>{(value)=>value
+  return array.map=array
+}
+=======
 const multiplyByTwo = (array) => array.map( (value)  => value * 2 )
 
+>>>>>>> a5a5389a8148df444cf987bb5d54e819dfa03b07
 
 
 /**
@@ -24,11 +32,15 @@ const multiplyByTwo = (array) => array.map( (value)  => value * 2 )
  *   - Vous ne pouvez pas utiliser de variable (autre que l'argument de la fonction)
   */
 
+<<<<<<< HEAD
+const filterNameStartByA= (array)=>array.filter ((value)=>value[0]==="A")
+=======
 const filterNameStartByA = (array) => array.filter( (value) => value[0] === '5' )
 
 // 5 == "5" // true
 // 5 ==="5" // false
 
+>>>>>>> a5a5389a8148df444cf987bb5d54e819dfa03b07
 /**
  * Utiliser la fonction .reduce sur le tableau passé en paramètre
  * retourne la somme des valeurs du tableau
@@ -38,10 +50,15 @@ const filterNameStartByA = (array) => array.filter( (value) => value[0] === '5' 
  *   - les mots clées function et return sont interdits
  *   - Vous ne pouvez pas utiliser de variable (autre que l'argument de la fonction)
   */
+<<<<<<< HEAD
+const array =[1, 2, 3, 4, 5]
+const sum (array)=>array.reduce ((acc,value)=> acc+value , 0)
+=======
 
 const array = [1,2,3,4,5]
 
 const sum = (array) => array.reduce( (acc, value) => acc + value, 0 )
+>>>>>>> a5a5389a8148df444cf987bb5d54e819dfa03b07
 /**
  * Utiliser la fonction .find sur le tableau passé en paramètre
  * retourne l'utilisateur qui a l'id passé en 2e paramètre
